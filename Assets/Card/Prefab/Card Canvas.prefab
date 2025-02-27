@@ -840,6 +840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1320716060414075804}
+  - component: {fileID: 6575590117774585466}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -867,6 +868,36 @@ RectTransform:
   m_AnchoredPosition: {x: -346, y: -709}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6575590117774585466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4066416976410593756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fdd2d491b9e03148948ef70c940363e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _borderImage: {fileID: 137224865019709049}
+  _iconBackgroundImage: {fileID: 540246392828799233}
+  _iconImage: {fileID: 7604876613862747893}
+  _titleTextbox: {fileID: 4492539807559901063}
+  _comfortTextbox: {fileID: 4780698791883688629}
+  _aestheticTextbox: {fileID: 5878342547767578536}
+  _durabilityTextbox: {fileID: 4703705352473721827}
+  _cardIcons:
+  - IconSprite: {fileID: 21300000, guid: a7bc5f5b5cb4e0247aab45a685a61421, type: 3}
+    ItemType: 0
+  - IconSprite: {fileID: 21300000, guid: 8258f00eb552b284dbb5adff23b77594, type: 3}
+    ItemType: 1
+  - IconSprite: {fileID: 21300000, guid: 98336fa8d308be642b1eea84e8448e13, type: 3}
+    ItemType: 2
+  - IconSprite: {fileID: 21300000, guid: 3b95d639abd497c43b595c9d64fa6cb6, type: 3}
+    ItemType: 3
+  - IconSprite: {fileID: 21300000, guid: 25b76f57b13e05b47a0bfc4bc98a9573, type: 3}
+    ItemType: 4
 --- !u!1 &4202019289182535047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,7 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21730483, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.8679245, g: 0.85358185, b: 0.1760413, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1222,7 +1253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '0
+  m_text: '<color="red">0</color>
 
 '
   m_isRightToLeft: 0
@@ -1485,7 +1516,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &9125121558347822047
 MonoBehaviour:
   m_ObjectHideFlags: 0
