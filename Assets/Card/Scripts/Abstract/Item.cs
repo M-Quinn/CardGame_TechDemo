@@ -28,4 +28,15 @@ namespace CozyDesigner.Card
         COOL,
         LEGENDARY
     }
+
+    public enum ItemAdjective
+    {
+        NONE,
+        MOLDY,
+        RIPPED,
+        LEATHER,
+        REINFORCED,
+        WOODEN,
+        METAL,
+    }
 }

@@ -1,35 +1,34 @@
-using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace CozyDesigner.Card
 {
-    public class Basic : ItemDecorator
+    internal class Ripped : ItemDecorator
     {
-        public Basic(Item item) : base(item)
+        public Ripped(Item item) : base(item)
         {
-            itemRarity = ItemRarity.BASIC;
         }
-
         public override string name
         {
-            get => "Basic " + Item.name;
+            get => "Ripped " + Item.name;
             protected set { }
         }
-
         public override int comfort
         {
-            get => Item.comfort + 1;
+            get => Item.comfort - 1;
             protected set { }
         }
-
         public override int esthetic
         {
-            get => Item.esthetic + 1;
+            get => Item.esthetic - 3;
             protected set { }
         }
-
         public override int durability
         {
-            get => Item.durability + 1;
+            get => Item.durability - 2;
             protected set { }
         }
     }

@@ -1,35 +1,32 @@
-using UnityEngine;
+﻿
 
 namespace CozyDesigner.Card
 {
-    public class Basic : ItemDecorator
+    public class Cool: ItemDecorator
     {
-        public Basic(Item item) : base(item)
+        public Cool(Item item) : base(item)
         {
-            itemRarity = ItemRarity.BASIC;
+            itemRarity = ItemRarity.COOL;
         }
 
         public override string name
         {
-            get => "Basic " + Item.name;
+            get => "Cool " + Item.name;
             protected set { }
         }
-
         public override int comfort
         {
-            get => Item.comfort + 1;
+            get => Item.comfort + 2;
             protected set { }
         }
-
         public override int esthetic
         {
-            get => Item.esthetic + 1;
+            get => Item.esthetic + 4;
             protected set { }
         }
-
         public override int durability
         {
-            get => Item.durability + 1;
+            get => Item.durability + 2;
             protected set { }
         }
     }
