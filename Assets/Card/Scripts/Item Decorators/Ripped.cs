@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace CozyDesigner.Card
 {
-    internal class Ripped : ItemDecorator
+    public class Ripped : ItemDecorator
     {
         public Ripped(Item item) : base(item)
         {

@@ -2,26 +2,24 @@
 
 namespace CozyDesigner.Card
 {
-    internal class Legendary: ItemDecorator
+    public class Reinforced: ItemDecorator
     {
-        public Legendary(Item item) : base(item)
+        public Reinforced(Item item) : base(item)
         {
-            itemRarity = ItemRarity.LEGENDARY;
         }
-
         public override string name
         {
-            get => "Legendary " + Item.name;
+            get => "Reinforced " + Item.name;
             protected set { }
         }
         public override int comfort
         {
-            get => Item.comfort + 5;
+            get => Item.comfort;
             protected set { }
         }
         public override int esthetic
         {
-            get => Item.esthetic + 10;
+            get => Item.esthetic;
             protected set { }
         }
         public override int durability
