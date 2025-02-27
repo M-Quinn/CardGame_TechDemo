@@ -7,6 +7,7 @@ namespace CozyDesigner.Card
         public Legendary(Item item) : base(item)
         {
             itemRarity = ItemRarity.LEGENDARY;
+            itemType = item.itemType;
         }
 
         public override string name

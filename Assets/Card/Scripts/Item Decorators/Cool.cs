@@ -7,6 +7,7 @@ namespace CozyDesigner.Card
         public Cool(Item item) : base(item)
         {
             itemRarity = ItemRarity.COOL;
+            itemType = item.itemType;
         }
 
         public override string name

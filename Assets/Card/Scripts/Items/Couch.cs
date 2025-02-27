@@ -6,7 +6,7 @@ namespace CozyDesigner.Card
     {
         public Couch()
         {
-            itemType = ItemType.COUCH;
+            base.itemType = ItemType.COUCH;
         }
 
         public override string name

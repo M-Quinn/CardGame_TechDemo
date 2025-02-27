@@ -6,6 +6,7 @@ namespace CozyDesigner.Card
     {
         public Metal(Item item) : base(item)
         {
+            itemType = item.itemType;
         }
         public override string name
         {
