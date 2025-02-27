@@ -8,7 +8,7 @@ namespace CozyDesigner.Card
         public ItemRarity itemRarity { get; protected set; }
         public abstract string name { get; protected set; }
         public abstract int comfort { get; protected set; }
-        public abstract int esthetic { get; protected set; }
+        public abstract int aesthetic { get; protected set; }
         public abstract int durability { get; protected set; }
 
     }

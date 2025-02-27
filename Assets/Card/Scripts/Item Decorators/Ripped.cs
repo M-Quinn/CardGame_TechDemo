@@ -17,9 +17,9 @@ namespace CozyDesigner.Card
             get => Item.comfort - 1;
             protected set { }
         }
-        public override int esthetic
+        public override int aesthetic
         {
-            get => Item.esthetic - 3;
+            get => Item.aesthetic - 3;
             protected set { }
         }
         public override int durability
