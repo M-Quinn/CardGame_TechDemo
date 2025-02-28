@@ -1,4 +1,5 @@
 # Card Game | Tech Demo #
+A system to dynamically create 105 unique cards from 14 C# classes and a single prefab
 ![Unity_dSfgKOECEM](https://github.com/user-attachments/assets/715be121-6f69-4142-8b76-4a1ac1c32aba)
 
 ## Description ##
